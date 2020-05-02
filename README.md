@@ -1,9 +1,6 @@
 # hoggy-warts
 
 To-do:
-Pass form data into blank array
-Randomize class assignment
-Add blank form error message
 Add expel button functionality
 
 // BONUS //
