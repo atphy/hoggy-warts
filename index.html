@@ -8,16 +8,29 @@
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
+  <header id='mainHeader'>
+    <h1 class="display-4">Hogwarts University Office of Admissions</h1>
+    <img src='https://vignette.wikia.nocookie.net/harrypotter/images/a/ae/Hogwartscrest.png/revision/latest/top-crop/width/360/height/360?cb=20110806202805' alt='hogwarts crest'>
+  </header>
   <div class="jumbotron" id="confirmPage">
-    <h1 class="display-4">Welcome to the Hogwarts University Admissions Office!</h1>
+    <h1 class="display-4">Welcome to Hogwarts!</h1>
     <p class="lead">You paid your tuition, right?</p>
     <hr class="my-4">
     <p>No but for real, our state funding got absolutely decimated this year. That's why we sold the sorting hat to a film prop collector and got this nifty internet hat on the cheap from a student with 3 weeks of programming under his belt.</p>
     <p class="lead">
-      <a class="btn btn-primary btn-lg" href="#" role="button">I hereby confirm that I have paid my admission in full to the Hogwarts Bursar's office. </a>
+      <a class="btn btn-primary btn-lg" href="#" role="button" id="confirmButton">I hereby confirm that I have paid my admission in full to the Hogwarts Bursar's office. </a>
     </p>
   </div>
-  <div class="mainPage"></div>
+  <div id="mainPage">
+    <form>
+      <div class="form-group">
+        <label for="studentName">First Year Student's Name</label>
+        <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Student's Name">
+        <small id="emailHelp" class="form-text text-muted">We vow to sort students with consideration to data-driven criteria based on personality, aptitude, and personal preferences. We do NOT randomly assign students to houses based on the luck of a JavaScript draw, promise.</small>
+      </div>
+      <button type="submit" class="btn btn-primary">Let's a-go!</button>
+    </form>
+  </div>
   <script src="main.js"></script>
 </body>
 </html>
