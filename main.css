@@ -4,7 +4,7 @@ body {
 
 #mainHeader {
   display: flex;
-  height: 100px;
+  min-height: 100px;
   align-items: center;
   background-color: lightsteelblue;
   padding-left: 10px;
@@ -13,11 +13,16 @@ body {
 #mainHeader img {
   width: 100px;
   height: 100px;
-  position: absolute;
-  top: 0px;
-  right: 0px;
+  position: ;
+  float: right;
 }
 
 form {
   padding: 20px;
+}
+
+#cardSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
