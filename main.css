@@ -1,3 +1,23 @@
 body {
   background-color: whitesmoke;
 }
+
+#mainHeader {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  background-color: lightsteelblue;
+  padding-left: 10px;
+}
+
+#mainHeader img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+form {
+  padding: 20px;
+}
