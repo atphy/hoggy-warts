@@ -22,14 +22,45 @@
     </p>
   </div>
   <div id="mainPage">
-    <form>
-      <div class="form-group">
-        <label for="studentName">First Year Student's Name</label>
-        <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Student's Name">
-        <small id="emailHelp" class="form-text text-muted">We vow to sort students with consideration to data-driven criteria based on personality, aptitude, and personal preferences. We do NOT randomly assign students to houses based on the luck of a JavaScript draw, promise.</small>
+    <div id="nameForm">
+     <form>
+        <div class="form-group">
+          <label for="studentName">First Year Student's Name</label>
+          <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Student's Name">
+          <small id="emailHelp" class="form-text text-muted">We vow to sort students with consideration to data-driven criteria based on personality, aptitude, and personal preferences. We do NOT randomly assign students to houses based on the luck of a JavaScript draw, promise.</small>
+        </div>
+        <button type="submit" class="btn btn-primary">Sort me out, magic man!</button>
+      </form>
+    </div>
+    <div id="cardSection">
+      <div class="card">
+        <div class="card-header">
+          School
+        </div>
+        <div class="card-body">
+          <h4 class="card-title">Student Name</h4>
+          <a href="#" class="btn btn-primary">Expel</a>
+        </div>
       </div>
-      <button type="submit" class="btn btn-primary">Let's a-go!</button>
-    </form>
+      <div class="card">
+        <div class="card-header">
+          School
+        </div>
+        <div class="card-body">
+          <h4 class="card-title">Student Name</h4>
+          <a href="#" class="btn btn-primary">Expel</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          School
+        </div>
+        <div class="card-body">
+          <h4 class="card-title">Student Name</h4>
+          <a href="#" class="btn btn-primary">Expel</a>
+        </div>
+      </div>
+    </div>
   </div>
   <script src="main.js"></script>
 </body>
