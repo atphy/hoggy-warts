@@ -74,7 +74,7 @@ const sortStudent = () => {
   students.push(newStudent);
   buildStudents(students);
   assignId++;
-  console.log(students)
+  console.log(students);
 }
 
 /* Confirms that the value entered in the text box is not blank. If it isn't, the sortStudent function is called */
