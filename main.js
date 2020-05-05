@@ -69,12 +69,12 @@ const sortStudent = () => {
     {
       id: assignId,
       name: enteredName,
-      school: classPicker
+      school: classPicker,
     }
   students.push(newStudent);
   buildStudents(students);
   assignId++;
-  console.log(students)
+  console.log(students);
 }
 
 /* Confirms that the value entered in the text box is not blank. If it isn't, the sortStudent function is called */
@@ -83,6 +83,7 @@ if (document.getElementById("inputName").value === '') {
   alert("Incomplete paperwork. Please provide a student name before proceeding.");
   } else {
   sortStudent();
+  document.getElementById("inputName").value = ''
   }
 }
 
