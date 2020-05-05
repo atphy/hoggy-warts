@@ -83,6 +83,7 @@ if (document.getElementById("inputName").value === '') {
   alert("Incomplete paperwork. Please provide a student name before proceeding.");
   } else {
   sortStudent();
+  document.getElementById("inputName").value = ''
   }
 }
 
