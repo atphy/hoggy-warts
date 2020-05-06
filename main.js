@@ -69,7 +69,7 @@ const sortStudent = () => {
     {
       id: assignId,
       name: enteredName,
-      school: classPicker
+      school: classPicker,
     }
   students.push(newStudent);
   buildStudents(students);
