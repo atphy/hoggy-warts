@@ -28,6 +28,20 @@ form {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  background-color: lightsteelblue;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  margin: 0px 5px;
+  padding: 10px;
+}
+
+.card {
+  width: 200px;
+  height: 170px;
+  white-space: nowrap;
+  overflow:hidden; 
+  display:block;
+  margin: 0px 30px 20px 30px;
 }
 
 #Slytherin .card-header {
@@ -67,4 +81,38 @@ form {
 #Hufflepuff .card-body { 
   background-color: #000000;
   color: #e3e3e3;
+}
+
+#expelledSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #000000;
+  border: 2px solid lightsteelblue;
+  border-radius: 10px;
+  margin: 0px 5px;
+  padding: 10px;
+}
+
+#studentsHeader {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#expelledHeader {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#Voldemort {
+  background-color: red;
+  text-align: center;
+}
+
+#deathlyHallows {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 100px;
 }
