@@ -5,6 +5,7 @@ This project continues the progression from [the previous week's](https://github
 https://github.com/nss-nightclass-projects/exercise-vault/blob/master/EVENTS_sorting_hat.md
 
 ## Preview
+![Main View](https://raw.githubusercontent.com/atphy/hoggy-warts/master/screenshots/hoggywarts.gif)
 
 ## View Project
 To view the project, clone it down from Github and run in a terminal!
